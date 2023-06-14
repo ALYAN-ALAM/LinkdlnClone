@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    height: 3.7rem;
+    background-color: rgb(204, 198, 198);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow:hidden;
+    align-items: center;
+}
+.left-Content-nav{
+    display: flex;
+    align-items: center;
+   
+}
+
+.search-box{
+    display: inline;
+    margin-left: 1.4rem;
+   
+}
+#search{
+    width: 12rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(248, 232, 232);
+}
+.icon-menu{
+    display: flex;
+    width: 12rem;
+    justify-content: space-around;
+    
+}
+.icon-size{
+    font-size: large;
+}
